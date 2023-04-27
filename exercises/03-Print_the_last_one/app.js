@@ -7,6 +7,5 @@ function generateRandomArray()
 }
 let myStupidArray = generateRandomArray();
 
-let ultimo=myStupidArray.length;
-let theLastOne =myStupidArray[myStupidArray.length];
+let theLastOne =myStupidArray[myStupidArray.length - 1];
 console.log(theLastOne);
